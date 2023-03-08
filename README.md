@@ -5,6 +5,16 @@
 
 ## Shopify Theme
 
+- [Shopify CLI instllation commands Guide](https://shopify.dev/docs/themes/tools/cli/install)
+
+- [Shopify CLI theme commands](https://shopify.dev/docs/themes/tools/cli/commands)
+
+- [Shopify theme architecture](https://shopify.dev/docs/themes/architecture)
+
+- [Liquid Reference](https://shopify.dev/docs/api/liquid)
+
+
+
 ## Shopify Developer
 
 
