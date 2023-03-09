@@ -13,6 +13,8 @@
 
 - [Liquid Reference](https://shopify.dev/docs/api/liquid)
 
+- [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+
 
 
 ## Shopify Developer
