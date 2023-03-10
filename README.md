@@ -29,7 +29,16 @@
 
 - **Multilingual Support:** The new version offers multilingual support, allowing merchants to create a store that caters to customers from different countries and languages.
 
+### Day to Day 
 
+#### Starting a theme project
+
+`shopify theme init -u url_to_base_theme`
+
+
+#### Running the theme
+
+`shopify theme dev -s url_to_your_store`
 
 
 ## Shopify Developer
