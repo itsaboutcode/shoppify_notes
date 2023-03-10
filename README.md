@@ -31,16 +31,41 @@
 
 ### Day to Day 
 
-#### Starting a theme project
+#### Starting a Theme Project
 
 `shopify theme init -u url_to_base_theme`
 
 
-#### Running the theme
+#### Running the Theme
 
 `shopify theme dev -s url_to_your_store`
 
 If you are starting from scratch, you can check my min theme @ https://github.com/itsaboutcode/shopify_min_theme
+
+### Shopify Theme Pages
+
+Shopify have set of possible pages, which you can build and they can be accessed from a certain url.
+
+- 404
+- article
+- blog
+- cart
+- collection
+- customers/account
+- customers/activate_account
+- customers/addresses
+- customers/login
+- customers/order
+- customers/register
+- customers/reset_password
+- gift_card.liquid
+- index
+- list-collections (/collections)
+- page
+- password
+- product
+- robots.txt.liquid
+- search
 
 
 ## Shopify Developer
