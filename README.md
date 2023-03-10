@@ -40,6 +40,8 @@
 
 `shopify theme dev -s url_to_your_store`
 
+If you are starting from scratch, you can check my min theme @ https://github.com/itsaboutcode/shopify_min_theme
+
 
 ## Shopify Developer
 
