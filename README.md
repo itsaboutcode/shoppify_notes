@@ -71,14 +71,36 @@ Shopify theme files fall into following 3 categories
 
 - You put them in **layout** folder.
 
-- These files provide content for different **pages** for the themes e.g; 404, index, collections, checkout etc.
+- All themes **MUST** have a default layout file, named `theme.liquid` - the default theme layout for all non-checkout pages => It provide header, content placeholder (template files). It act like container for all of your **pages** for the themes e.g; 404, index, collections, checkout etc.
 
-- All themes **MUST** have a default layout file, named `theme.liquid` - the default theme layout for all non-checkout pages.
+```
+<!DOCTYPE html>
+<html>
+  <head>
+   {{ content_for_header }}
+  </head>
+
+  <body>
+    {{ content_for_layout }}
+  </body>
+ </html>
+
+```
 
 - `checkout.liquid` - This layout file is used on checkout page. 
 
 
 ![20210629175318_Screen Shot 2021-06-29 at 10 51 01 AM](https://user-images.githubusercontent.com/204423/224764848-3d19220f-3834-48d0-bc46-d5c6033f3c8a.jpg)
+
+## Templates (Pages)
+
+- Each page in shopify theme have a associated template.
+- By default, this template will be hosted by `theme.liquid` layout.
+- But you can tell in the template file, if you wanted to change that.
+
+- https://www.shopify.com/partners/blog/84342470-the-power-of-alternate-layout-files-in-shopify-theme-development
+- https://www.shopify.com/partners/blog/shopify-alternate-templates
+- https://shopify.dev/docs/themes/architecture/templates/json-templates#schema
 
 
 ## Sections
